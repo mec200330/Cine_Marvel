@@ -1,0 +1,24 @@
+.premiereContainer{
+   
+   width: 750px;
+    height: 1100px;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    overflow-x: hidden;
+    display: flex;
+}
+.premiereInfo{
+ cursor: grab;
+ display: flex;
+}
+.premiereImg{
+    width: 745px;
+    height: 900px;
+    padding: 2rem;
+    pointer-events: none;
+    
+}
+.sliderPremiereButton{
+    margin-left: 300px;
+}

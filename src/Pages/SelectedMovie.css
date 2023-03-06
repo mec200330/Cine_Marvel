@@ -1,0 +1,14 @@
+.movieContainer{
+margin: 50px;
+}
+/* .sectionInfo{
+
+} */
+.movieInfoImg{
+width: 500px;
+height: 500px;
+}
+.movieInfoData{
+font-family: fantasy;
+margin-left: -700px;
+}
