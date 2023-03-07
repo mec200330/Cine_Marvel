@@ -39,7 +39,7 @@ const Slider = () => {
                 {" "}
                 <Button
                   accion={() => selectMovie(images)}
-                  clase="cartelera1"
+                  clase="ver"
                   nombre="Ver"
                 ></Button>{" "}
               </Link>

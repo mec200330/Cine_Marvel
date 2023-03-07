@@ -5,22 +5,16 @@ import Button from "../Button/Button";
 import ReactPlayer from "react-player";
 
 const NavBar = () => {
-  const URLVideo =
-    "https://res.cloudinary.com/dw4ai2d9d/video/upload/v1678140150/videoplayback_fl2uql.webm";
+  // const URLVideo =
+  //   "https://res.cloudinary.com/dw4ai2d9d/video/upload/v1678140150/videoplayback_fl2uql.webm";
   return (
     <nav className="navBar">
-      {/* <ReactPlayer
-        className="react-player"
-        url={URLVideo}
-        playing={true}
-        loop={true}
-      /> */}
+     
       <Link to="/">
         {" "}
         <img className="logo" src={Logo} alt="Icon Marvel" />{" "}
       </Link>
-      <Link to="/">
-        <Button clase="cartelera" nombre="Inicio">
+      <Link to="/"><Button clase="cartelera" nombre="Inicio">
           {" "}
         </Button>
       </Link>

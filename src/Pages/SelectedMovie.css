@@ -1,14 +1,19 @@
 .movieContainer{
-margin: 50px;
+
+background-image: url('../Assets/image/shieldimg.webp');
 }
 /* .sectionInfo{
 
 } */
 .movieInfoImg{
+margin: 30px;
 width: 500px;
 height: 500px;
 }
 .movieInfoData{
 font-family: fantasy;
 margin-left: -700px;
+color:  rgba(210, 206, 206, 0.989);
+margin-top: 100px;
+padding-top: 50px;
 }

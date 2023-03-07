@@ -31,7 +31,7 @@ const MovieList = () => {
             return (
               <motion.div key={movie.id} >
                 <img className="premiereImg" src={movie.img}></img>
-             <Link className="sliderPremiereButton" to={'/selectedMovie'}><Button accion={()=>selectMovie(movie)} clase='cartelera' nombre='Ver'></Button></Link>   
+             <Link className="sliderPremiereButton" to={'/selectedMovie'}><Button accion={()=>selectMovie(movie)} clase='ver' nombre='Ver'></Button></Link>   
                 
               </motion.div>
               
