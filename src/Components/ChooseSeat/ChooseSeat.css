@@ -1,17 +1,7 @@
-/* .seatM{
-    
-    
-    
-    
-} */
 
 .seatDiagramIzq{
- 
- 
- 
  gap: 3px;
-
-
+ color: whitesmoke;
 }
 
 .seatDiagramDer{
@@ -19,29 +9,37 @@
     gap: 3px;
 }
 
-/* .seat{
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-    
-   
-} */
+
 .seatselect{
     width: 40px;
     height: 40px;
    background-color: red;
+   
 }
 .seatYes{
     width: 40px;
     height: 40px;
     background-color: grey;
     cursor: pointer;
-
+    
 }
 .seatNot{
     width: 40px;
     height: 40px;
     cursor: pointer;
     background-color: rgb(32, 218, 63);
+    
    
+}
+.seatM{
+    margin-left: 50px;
+    width: 800px;
+    flex-wrap: wrap;
+    margin-bottom: 276px;
+    margin-top: 40px;
+    
+}
+.purchased{
+    margin-left: 25px;
+    margin-top: 150px;
 }

@@ -24,7 +24,7 @@ const NavBar = () => {
       </Link>
       <Button clase="cartelera2" nombre="Promos"></Button>
       <Button clase="cartelera3" nombre="Ubicación"></Button>
-      <Button clase="cartelera4" nombre="Info"></Button>
+    <Link to='/pago'> <Button clase="cartelera4" nombre="Info"></Button></Link> 
       <Button clase="comprar" nombre="Comprar"></Button>
     </nav>
   );

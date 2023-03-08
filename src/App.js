@@ -8,6 +8,7 @@ import Asientos from './Pages/Asientos';
 import MovieContextProvider from './Context/MovieContext';
 import SelectedMovie from './Pages/SelectedMovie';
 import Cine from './Pages/Cine';
+import FormPay from './Pages/FormPay';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Route path='/asientos' element={<Asientos/>}/>
       <Route path='/selectedMovie' element={<SelectedMovie/>}/>
       <Route path='/cine' element={<Cine/>}/>
+      <Route path='/pago' element={<FormPay/>}/>
     </Routes>
     <Footer/>
     </BrowserRouter>

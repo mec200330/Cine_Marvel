@@ -11,8 +11,8 @@ const SelectedMovie = () => {
   console.log(selectMovieInfo);
 
   return (
-    <article className="movieContainer">
-        <section className="sectionInfo row">  
+    <article className="movieContainer ">
+        <section className="sectionInfo row img-fluid">  
       <div className="col">
         <img className="movieInfoImg" src={selectMovieInfo.img}></img>
       </div>

@@ -1,3 +1,48 @@
-.asientos{
+.asientoscontainer{
     background-image: url('../Assets/image/shieldimg.webp');
+    
+}
+.seatdisponible{
+    width: 40px;
+    height: 40px;
+    background-color: grey;
+}
+.seatseleccionado{
+    width: 40px;
+    height: 40px;
+    
+    background-color: rgb(32, 218, 63);
+}
+.seatocupado{
+    width: 40px;
+    height: 40px;
+   background-color: red;
+}
+.seatstate{
+    margin-left: 70px;
+   padding-top: 100px;
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    flex-wrap: wrap;
+    
+}
+.titlestate{
+    color: whitesmoke;
+    text-align: center;
+}
+.infoUsers{
+    
+    color: whitesmoke;
+    text-align: start;
+}
+.infoUsers h3{
+    color: red;
+    flex-direction: column;
+}
+.pantalla{
+    width: 1000px;
+    pointer-events: none;
+    margin-left: 20px;
+    margin-top: 10px;
 }
